@@ -3,6 +3,9 @@ import board
 import neopixel
 import signal
 import sys
+import LED_gui
+
+color, slide_wait, blink_wait, block_size, brightness = LED_gui.get_parameters()
 
 pixel_pin = board.D18
 num_pixels = 60
